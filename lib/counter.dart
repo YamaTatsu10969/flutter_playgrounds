@@ -20,3 +20,21 @@ class CounterImpl extends ChangeNotifier implements Counter {
     notifyListeners();
   }
 }
+
+class CounterTest implements Counter {
+  int value = 0;
+
+  void increment() => value++;
+
+  void decrement() => value--;
+
+  @override
+  void add() {
+    // TODO: implement add
+  }
+
+  @override
+  void reset() {
+    // TODO: implement reset
+  }
+}
