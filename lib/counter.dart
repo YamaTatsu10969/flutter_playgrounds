@@ -30,11 +30,11 @@ class CounterTest implements Counter {
 
   @override
   void add() {
-    // TODO: implement add
+    // TODO(yamatatsu): test を追加
   }
 
   @override
   void reset() {
-    // TODO: implement reset
+    // TODO(yamatatsu): test を追加
   }
 }
